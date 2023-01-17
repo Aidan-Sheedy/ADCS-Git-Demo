@@ -20,7 +20,7 @@ The first step is getting a local copy of the repository.
 ### Local Branches
 Congratulations! You've downloaded the repository. Now we need to learn how to use branches to make changes to the files.
 1. In bash, enter the folder you created using the `cd` command. For example, `cd git_tutorial`.
-2. Create a local branch: `git checkout -b <branch_name>. This creates a version of the entire repository at the exact moment in time you created the branch, entirely local to your computer. This means that if someone makes changes to the original branch (master), your work won't be affected!
+2. Create a local branch: `git checkout -b <branch_name>`. This creates a version of the entire repository at the exact moment in time you created the branch, entirely local to your computer. This means that if someone makes changes to the original branch (master), your work won't be affected!
 
 ### Making changes
 Now that we have a local branch, we can make changes to the repository.
