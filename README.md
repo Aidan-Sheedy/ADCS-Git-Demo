@@ -32,7 +32,7 @@ Now that we have changes to make, we need to tell GitHub about them so everyone 
 1. Run `git add <file_name>` to tell git that you want to upload your new file. The file name actually matches "regular expression" patterns, so we can add mroe than one file at once. For example, we could add all .txt files with `git add *.txt`.
 2. Run the command `git commit -s`. This will open up a weird and confusing text editor - but not to fear!
     1. Press `i` to edit in the text editor. Add a message about what your commit is, for example `added new file, aidan.txt`.
-    2. Press `esc`, then `w`, then `q`. This saves the commit message file and quits the editor.
+    2. Press `esc`, then `:wq`. This saves the commit message file and quits the editor.
 3. Now run the command `git log`. You should see your new commit at the top of the list!
 4. If you run `git status` again, you'll see your changes are no longer there.
 5. Now we need to push our changes to the server. Run `git push`. An error should pop up, copy and paste the suggested command and run it. (note that `ctrl+c` and `ctrl+v` do not usually work in Bash, try `shift+ins` and `ctrl+ins` instead)
